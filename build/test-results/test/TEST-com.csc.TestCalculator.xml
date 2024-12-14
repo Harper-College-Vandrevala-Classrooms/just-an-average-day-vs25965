@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.csc.TestCalculator" tests="12" skipped="0" failures="0" errors="0" timestamp="2024-11-30T20:18:18" hostname="EL_TOTE1" time="0.031">
+<testsuite name="com.csc.TestCalculator" tests="14" skipped="0" failures="0" errors="0" timestamp="2024-12-13T23:53:39" hostname="EL_TOTE1" time="0.039">
   <properties/>
-  <testcase name="minimumUsingForLoopTest()" classname="com.csc.TestCalculator" time="0.013"/>
+  <testcase name="minimumUsingForLoopTest()" classname="com.csc.TestCalculator" time="0.015"/>
   <testcase name="averageUsingForLoopTest2()" classname="com.csc.TestCalculator" time="0.001"/>
-  <testcase name="sumUsingStreamTest()" classname="com.csc.TestCalculator" time="0.002"/>
+  <testcase name="sumUsingStreamTest()" classname="com.csc.TestCalculator" time="0.005"/>
   <testcase name="averageUsingForLoopTest()" classname="com.csc.TestCalculator" time="0.001"/>
   <testcase name="maximumUsingStream()" classname="com.csc.TestCalculator" time="0.001"/>
-  <testcase name="sumUsingStreamTest2()" classname="com.csc.TestCalculator" time="0.001"/>
-  <testcase name="maximumUsingForLoopTest()" classname="com.csc.TestCalculator" time="0.001"/>
-  <testcase name="sumUsingForLoopTest2()" classname="com.csc.TestCalculator" time="0.0"/>
-  <testcase name="averageUsingStreamTest()" classname="com.csc.TestCalculator" time="0.001"/>
+  <testcase name="sumUsingStreamTest2()" classname="com.csc.TestCalculator" time="0.0"/>
+  <testcase name="maximumUsingForLoopTest()" classname="com.csc.TestCalculator" time="0.0"/>
+  <testcase name="sumUsingForLoopTest2()" classname="com.csc.TestCalculator" time="0.002"/>
+  <testcase name="oddsOnlyTest()" classname="com.csc.TestCalculator" time="0.003"/>
+  <testcase name="averageUsingStreamTest()" classname="com.csc.TestCalculator" time="0.002"/>
   <testcase name="minimumUsingForLoopTest2()" classname="com.csc.TestCalculator" time="0.001"/>
   <testcase name="sumUsingForLoopTest()" classname="com.csc.TestCalculator" time="0.0"/>
-  <testcase name="minimumUsingStreamTest()" classname="com.csc.TestCalculator" time="0.001"/>
+  <testcase name="minimumUsingStreamTest()" classname="com.csc.TestCalculator" time="0.0"/>
+  <testcase name="evensOnlyTest()" classname="com.csc.TestCalculator" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

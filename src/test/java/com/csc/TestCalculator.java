@@ -1,5 +1,6 @@
 package com.csc;
 
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.BeforeEach;
@@ -70,6 +71,37 @@ public class TestCalculator {
   void sumUsingStreamTest2() {
    assertEquals(-1,calculator.sumUsingStream(emptySet));
   }
- 
+
+  //Add-ons unit tests
+  @Test 
+  void evensOnlyTest(){
+    int[] input = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    int[] expected = {2, 4, 6, 8, 10};
+    int[] result =calculator.evensOnly(input);
+    assertArrayEquals(expected, result);
+
+  }
+  @Test 
+  void oddsOnlyTest(){
+    int[] input = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    int[]expected = {1,3,5,7,9};
+    int[] result = calculator.oddsOnly(input);
+    assertArrayEquals(expected, result);
+
+  }
+   @Test
+   void incrementByFiveTest() {
+        int[] input = {1, 2, 3, 4, 5};
+        int[] expected = {6, 7, 8, 9, 10};
+        int[] result = calculator.incrementByFive(input);
+        assertArrayEquals(expected, result);
+    }
+    @Test
+    void testSquareNumbers() {
+        int[] input = {1, 2, 3, 4, 5};
+        int[] expected = {1, 4, 9, 16, 25};
+        int[] result = calculator.squareNumbers(input);
+        assertArrayEquals(expected, result);
+    }
 }
 

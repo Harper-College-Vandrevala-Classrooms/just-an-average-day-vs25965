@@ -102,6 +102,18 @@ public class Calculator {
       int ave =(int) ave_s; //truncate double to return int
       return ave;
     }
-     
-  
+ //Methods for add-ons
+ 
+  public int[] evensOnly(int[] numbers) {
+        return Arrays.stream(numbers).filter(n -> n % 2 == 0).toArray();
+    }
+  public int[] oddsOnly(int[] numbers) {
+      return Arrays.stream(numbers).filter(n -> n % 2 != 0).toArray();
+  }
+  public int[] incrementByFive(int[] numbers) {
+    return Arrays.stream(numbers).map(n -> n + 5).toArray();
+   }
+  public int[] squareNumbers(int[] numbers) {
+  return Arrays.stream(numbers).map(n -> n * n).toArray();
+  }
 }
